@@ -3,7 +3,7 @@
 Plugin Name: DesignBriefs Funk
 Plugin URI: 
 Description: Functionality for Designbriefs website
-Version: 1.7
+Version: 1.0
 Author: Manuel Schmalstieg
 Author URI:
 License: GPL2
