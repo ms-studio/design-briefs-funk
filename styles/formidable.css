@@ -1,0 +1,29 @@
+/* Formidable Overrides */
+
+.frm_style_formidable-style.with_frm_style label.frm_primary_label, 
+.frm_style_formidable-style.with_frm_style.frm_login_form label,
+.frm_style_formidable-style.with_frm_style .frm_submit button,
+.frm_style_formidable-style.with_frm_style p.description, 
+.frm_style_formidable-style.with_frm_style div.description, 
+.frm_style_formidable-style.with_frm_style div.frm_description, 
+.frm_style_formidable-style.with_frm_style .frm-show-form > div.frm_description, 
+.frm_style_formidable-style.with_frm_style .frm_error {
+	font-style: normal;
+	font-weight: normal;
+	font-family: 'glacial-indifference-webfont', Futura, sans-serif;
+	font-size: 1em;
+}
+
+.frm_style_formidable-style.with_frm_style .frm_submit button {
+	font-size: 1.2em;
+}
+
+
+.frm_style_formidable-style.with_frm_style .frm_message p {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.frm_style_formidable-style.with_frm_style div.frm_description {
+	margin-top: 0.5em;
+}

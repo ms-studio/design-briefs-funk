@@ -61,6 +61,7 @@ function designbriefs_make_posts_hierarchical($post_type, $pto){
 // See https://stackoverflow.com/questions/5414669/wordpress-wp-query-query-parent-pages-only
 
 function designbriefs_no_parents( $query ) {
+ 
         if ( $query->is_archive() && !is_admin() ) {
            	$query->set( 'post_parent', 0);
             return $query;
@@ -104,3 +105,16 @@ function frm_populate_posts($values, $field){
   return $values;
 }
 
+/*
+ * Formidable: Load Styles
+ *
+*/
+
+function designbriefs_plugin_overrides() {
+	
+	wp_enqueue_style( 'formidable-override', plugin_dir_url( __FILE__ ).'styles/formidable.css' );
+	
+	wp_enqueue_style( 'featherlight-override', plugin_dir_url( __FILE__ ).'styles/featherlight.css' );
+        
+}
+add_action( 'wp_enqueue_scripts', 'designbriefs_plugin_overrides', 11 );
