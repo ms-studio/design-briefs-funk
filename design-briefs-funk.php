@@ -3,7 +3,7 @@
 Plugin Name: DesignBriefs Funk
 Plugin URI: 
 Description: Functionality for Designbriefs website
-Version: 1.0
+Version: 1.1
 Author: Manuel Schmalstieg
 Author URI:
 License: GPL2
@@ -117,4 +117,4 @@ function designbriefs_plugin_overrides() {
 	wp_enqueue_style( 'featherlight-override', plugin_dir_url( __FILE__ ).'styles/featherlight.css' );
         
 }
-add_action( 'wp_enqueue_scripts', 'designbriefs_plugin_overrides', 11 );
+add_action( 'wp_enqueue_scripts', 'designbriefs_plugin_overrides', 23 );
